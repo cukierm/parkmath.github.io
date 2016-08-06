@@ -1,0 +1,10 @@
+machine:
+  node:
+    version: 6.2
+
+deployment:
+  production:
+    branch: editing
+    commands:
+      - ./ci.sh:
+          timeout: 6000
